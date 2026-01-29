@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /cgi-bin
 Allow: /
 
-Host: alexlitvin.name
+Host: oleksiilytvyn.com

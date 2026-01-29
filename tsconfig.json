@@ -1,0 +1,21 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "plugins": [{
+      "name": "@astrojs/ts-plugin"
+    }],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [
+      "node",
+      "solid-js",
+      "vite/client"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    }
+  },
+}
